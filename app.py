@@ -4,7 +4,7 @@ import streamlit as st
 # Initialize the Hugging Face model pipeline
 pipe = pipeline("text-generation", model="gpt2")
 
-st.title("Chatbot using GPT-2")
+st.title("Chatbot using GPT-4")
 
 # Input area for prompt
 prompt = st.text_area("Enter your prompt:")
